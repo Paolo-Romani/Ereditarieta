@@ -16,7 +16,8 @@ public class EsEreditarita {
      */
     public static void main(String[] args) {
         Studente st = new Studente("sdr34d","sales","alessia","rossi","via ccc","asdw34asd34",3212654);
-        System.out.println("Dati di Persona "+st.stampaPersona());
-        System.out.println("Dati Studente "+st.stampaStudente());
+        System.out.println("tutti gli attributi di "+st.stampaPersona());
+        System.out.println("solo gli attributi di Studente {matricola="+st.getMatricola() + " scuola="+st.getScuola()+"}");
+        System.out.println("tutti gli attributi di "+st.stampaStudente());
     }
 }
